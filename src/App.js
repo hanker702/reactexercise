@@ -30,7 +30,6 @@ function App() {
   //reset to default, only one box there
   function resetBoxex() {
     setBoxes([{colorCode: 0}])
-    console.log(boxes);
     setScroll(false);
   }
 

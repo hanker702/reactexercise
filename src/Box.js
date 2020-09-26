@@ -27,3 +27,10 @@ export default function Box(props) {
         </div>        
     )
 }
+
+//type checking
+Box.propTypes = {
+    colorCode: PropTypes.number.isRequired,
+    changeColor: PropTypes.func.isRequired,
+    duplicate: PropTypes.func.isRequired
+}
